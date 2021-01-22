@@ -1,11 +1,11 @@
 {
   "name": "npm-prepare-test-tony",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "npm prepare test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "echo 11111111111111111111 && node scripts/prepare"
+    "postinstall": "node scripts/postinstall"
   },
   "repository": {
     "type": "git",
