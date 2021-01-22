@@ -3,6 +3,9 @@
   "version": "1.0.6",
   "description": "npm prepare test",
   "main": "index.js",
+  "bin": {
+    "auto-merge-json": "scripts/merge.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node scripts/postinstall"
