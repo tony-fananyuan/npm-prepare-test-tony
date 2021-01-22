@@ -1,5 +1,5 @@
-/* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-require-imports */
+#!/usr/bin/env node
+
 function start() {
   console.info("resolve conflict.....");
   const { readFileSync, writeFileSync } = require("fs");
