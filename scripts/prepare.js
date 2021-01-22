@@ -1,3 +1,3 @@
 console.log("prepare npm...............................");
 
-a = 1;
+process.exit(1);
