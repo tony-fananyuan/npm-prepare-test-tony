@@ -4,7 +4,8 @@
   "description": "npm prepare test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "node scripts/prepare"
   },
   "repository": {
     "type": "git",
