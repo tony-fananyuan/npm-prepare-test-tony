@@ -1,6 +1,6 @@
 {
   "name": "npm-prepare-test-tony",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "npm prepare test",
   "main": "index.js",
   "bin": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tony-fananyuan/npm-prepare-test-tony/issues"
   },
-  "homepage": "https://github.com/tony-fananyuan/npm-prepare-test-tony#readme"
+  "homepage": "https://github.com/tony-fananyuan/npm-prepare-test-tony#readme",
+  "devDependencies": {
+    "semver": "^7.3.4"
+  }
 }
